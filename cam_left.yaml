@@ -1,0 +1,29 @@
+%YAML:1.0
+
+image_width: 960
+image_height: 604
+camera_name: left
+camera_matrix: !!opencv-matrix
+  rows: 3
+  cols: 3
+  dt: d
+  data: [915.583314922979, 0.0, 486.156216093482, 0.0, 913.176127266096, 317.345300339797, 0.0, 0.0, 1.0]
+distortion_model: plumb_bob
+distortion_coefficients: !!opencv-matrix
+  rows: 1
+  cols: 5
+  dt: d
+  data: [-0.319132360976366, 0.27814804841972, 0.0, 0.0, -0.272034910182435]
+rectification_matrix: !!opencv-matrix
+  rows: 3
+  cols: 3
+  dt: d
+  data: [0.9996897304359291, -0.01599848225199777, -0.01909165856002074, 0.01595237875765353, 0.999869463407055, -0.002564714030888407, 0.01913019793186326, 0.002259360909722831, 0.9998144481929471]
+projection_matrix: !!opencv-matrix
+  rows: 3
+  cols: 4
+  dt: d
+  data: [914.754978458673, 0.0, 500.581356048584, 0.0, 0.0, 914.754978458673, 323.8738555908203, 0.0, 0.0, 0.0, 1.0, 0.0]
+
+  
+
