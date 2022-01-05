@@ -20,3 +20,14 @@
 - As we don't want to waste your time, you are not required to submit a detailed report, unless you have something to explain.
 
 - If you do not have enough GPU resources, you could use CPU instead and you are not required to run it in real-time.
+
+
+
+
+
+
+
+
+
+To run:-
+python3 detect.py --source images/left/ --detection-engine yolov5
