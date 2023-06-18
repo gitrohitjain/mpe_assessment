@@ -8,5 +8,6 @@
 
 4. Here YOLO v5 is used for object detection and I adopt code from Open AI's [CLIP](https://blog.roboflow.com/openai-clip/) to track objects across frames in a video. It uses an object detection model to find items of interest then crops the image and uses CLIP to determine if two detected objects are the same or difference instance of that object across different frames of a video. `python3 detect.py --source images/left/ --detection-engine yolov5`  This outputs [frames](https://github.com/gitrohitjain/mpe_assessment/tree/main/runs/detect) with objects marked with a bounding box with labels of class, tracking id and distance in meter from stereo camera. Here we use depth map array (obtained in step 3) to estimate distance of all detected objects in a frame (after non-max supression.)
 
+<h3>Demo Output</h3>
 ![alt_text](https://github.com/gitrohitjain/mpe_assessment/blob/main/out_video.gif)
 
